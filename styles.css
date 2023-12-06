@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('https://cdn.pixabay.com/photo/2016/02/23/07/37/wall-1217083_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    align-self: flex-end;
+    padding-top: 6px;
+    margin-right: 24px;
+    color: white;
+}
+nav:hover {
+    color: whitesmoke;
+}
+.word {
+    min-height: 400px;
+    /* max-height: 450px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 1.8em;
+}
+.word p {
+    margin-top: 28px;
+    margin-bottom: 10px;
+    font-size: 0.6em;
+}
+.load {
+    display: flex;
+    justify-content: flex-start;
+    min-width: 60%;
+    height: 12px;
+    background-color: azure;
+}
+.load .load_progress {
+    min-width: 60%;
+    height: 12px;
+    background-color: lightblue;
+}
+.load_num {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    min-width: 60%;
+}
+form {
+    min-height: 80px;
+}
+button {
+    margin-top: 30%;
+    border: none;
+    border-radius: 5%;
+    padding: 8px 12px 8px 12px;
+    color: black;
+}
+.icon {
+    min-height: 200px;
+    min-width: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: 2em;
+    color: white;
+}
+.blank {
+    display: flex;
+    flex-grow: 1;
+    min-height: 150px;
+}
+footer {
+    justify-self: flex-end;
+    border-top: 2px solid whitesmoke;
+    color: white;
+    min-width: 90%;
+    min-height: 60px;
+    text-align: center;
+    padding: 8px;
+}
